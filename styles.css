@@ -27,14 +27,16 @@ button{
     border: 1px var(--color-amarillo) solid;
     border-radius: 20px;
     font-family: var(--fuente);
+    font-size: 30px;
     text-align: center;
     font-weight: 600;
     box-shadow: 0 10px 6px 3px rgba(196, 195, 195, 0.3);
 }
 
 h1{
+    font-size: 50px;
     font-family: var(--fuente);
-    text-align: justify;
+    text-align: center;
 }
 
 #seccion_central{
@@ -43,7 +45,7 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    height: 700px;
     gap: 24px;
 }
 

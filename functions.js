@@ -13,7 +13,8 @@ document.getElementById("principal").append(boton);
 boton.addEventListener('click', () => {
     imagen.src = 'macarron.png';
     document.getElementById("principal").append(imagen);
-    titulo.innerText = 'Eres lo mejor que me ha pasado y solo quiero decirte que te quiero mucho y estoy muy orgulloso de todas las cosas que haces, soy un hombre feliz de tenerte a mi lado';
+    titulo.innerText = 'Eres lo mejor que me ha pasado y solo quiero decirte que te quiero mucho y estoy muy orgulloso de todas las cosas que haces, soy un hombre feliz de tenerte a mi lado. ❤️';
+    titulo.style= 'font-size: 35px; text-align: justify; font-weight: 300'
     boton.style.display = 'none';
     
 })
