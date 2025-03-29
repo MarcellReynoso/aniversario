@@ -12,7 +12,7 @@
     padding: 0 0;
 }
 
-body {
+html,body {
     background-color: var(--color-rosado);
     height: 100vh;
     display: flex;
